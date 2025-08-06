@@ -28,3 +28,8 @@ Download the repository to your device with web browser (e.g. PC or laptop). Lau
 
 ### 5. Serial monitor
 - A text panel to display the incoming data received from the serial port in ASCII characters.
+
+### 6. How to test
+- Upload the firmware in .\arduino\JSON_over_Serial to an Arduino dev board.
+- By closing the switch connected the dev board, it will send JSON string with random value over serial port every 1 second.
+- If a JSON string (i.e. command) is received from the serial port, it will be parsed and printed to serial port, and the printed message will be seen in Web Serial Commander's serial monitor.
