@@ -1,5 +1,6 @@
 # Web Serial Commander
 Web Serial Commander is an example of web-based, cross-platform application which provides UI to control and monitor target devices over serial (i.e. UART) communication.
+[screenshot](https://raw.githubusercontent.com/sweifang/webserialcommander/refs/heads/main/assets/WebSerialCommander.JPG)
 
 ### 1. How to use
 Download the repository to your device with web browser (e.g. PC or laptop). Launch the application by opening `index.html`.
